@@ -7,20 +7,20 @@ const DUMMY_EXPENSES = [
     id: "e1",
     title: "衣服",
     amount: 1500,
-    date: new Date(2020, 7, 18),
+    date: new Date(2020, 7, 18),  //月數從index 0開始計算,7為八月
   },
   { id: "e2", title: "PS4", amount: 8000, date: new Date(2021, 2, 12) },
   {
     id: "e3",
     title: "鞋子",
     amount: 2000,
-    date: new Date(2021, 9, 28),
+    date: new Date(2021, 8, 28),
   },
   {
     id: "e4",
     title: "水電費",
     amount: 1000,
-    date: new Date(2021, 9, 12),
+    date: new Date(2021, 8, 12),
   },
 ];
 function App() {
